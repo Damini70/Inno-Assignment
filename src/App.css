@@ -1,0 +1,74 @@
+*{
+  margin:5%;
+  background-color: grey;
+}
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+h1{
+  display: block;
+}
+h2,h3,h4,h5{
+  display: inline-block;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+img{
+  width: 80%;
+}
+.carousel .control-dots {
+  bottom: -40px;
+}
+
+.carousel .carousel-slider {
+  margin: 0px auto;
+  overflow: visible;
+}
+
+/* .cars{
+  /* display:flex ; */
+  /* color: red */
+
+.route{
+ display: flex
+}
+.link{
+  padding: 1rem;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
